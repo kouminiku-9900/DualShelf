@@ -1,8 +1,8 @@
 # Portable Backup Tool
 
-Portable Backup Tool は、Windows 標準の `robocopy` を GUI から安全に扱うための、個人向け portable バックアップツールです。
+Portable Backup Tool は、Windows 向けの portable バックアップツールです。
 
-写真、音楽、ゲーム資産、体験版、ドキュメントなどの「消したくない個人データ」を、容量の異なる複数 HDD / SSD に柔軟に複製する用途を想定しています。CLI に不慣れでも扱いやすいように、危険な同期操作はそのまま露出させず、確認・警告・プレビューを前提にしています。
+`robocopy` をベースに、複数のソースフォルダを 1 つのバックアップ先へまとめて複製できます。写真、音楽、ゲーム資産、ドキュメントなどの個人データ保全を想定しています。
 
 現在の公開バージョンは `v0.3` です。
 
@@ -142,4 +142,4 @@ Release 配布物には、PyInstaller によってバンドルされる以下の
 - [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)
 - [third_party_licenses/](./third_party_licenses/)
 
-実務上の配布整理としては問題の出にくい構成にしていますが、これは正式な法律相談ではありません。厳密な法的判断が必要な配布では、最終的に各ライセンス文面を確認してください。
+各配布物には、必要なライセンス通知と本文を同梱してください。
