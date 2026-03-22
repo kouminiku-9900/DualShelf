@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+build/
+build_*/
+build*/
+dist/
+dist_*/
+dist*/
+*.spec
+*.log
+app/data/logs/
